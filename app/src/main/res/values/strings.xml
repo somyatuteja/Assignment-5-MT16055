@@ -2,4 +2,5 @@
     <string name="app_name">Assignment-5</string>
     <string name="type_here_hint">Press the Button to reach IIIT-Delhi</string>
     <string name="press_here">Press Here</string>
+    <string name="heading">IIIT-DELHI</string>
 </resources>

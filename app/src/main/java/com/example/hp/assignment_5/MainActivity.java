@@ -40,6 +40,11 @@ public class MainActivity extends AppCompatActivity {
         {
             title=savedInstanceState.getString(TITLE);
             info=savedInstanceState.getString(DATA);
+            mAboutTextView = (TextView) findViewById(R.id.aboutTextView);
+            mTitleTextView = (TextView) findViewById(R.id.titleTextView);
+            mAboutTextView.setText(info);
+            mTitleTextView.setText(title);
+
         }
     }
     @Override

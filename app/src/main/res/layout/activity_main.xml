@@ -38,6 +38,8 @@
         android:layout_gravity="center"
         android:layout_margin="10dp"
         android:text="@string/press_here"
-        android:id="@+id/goButton"/>
+        android:id="@+id/goButton"
+        android:backgroundTint="@color/colorAccent"
+        android:textColor="#FFFFFF"/>
     </LinearLayout>
 </RelativeLayout>
